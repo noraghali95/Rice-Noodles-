@@ -1,0 +1,447 @@
+
+/* Star Upper Bar */
+.upper-bar
+{
+ background-color:#fbc531;
+     color: #d35400;
+    padding: 10px;
+    font-family: 'Charm', cursive;
+    font-weight: 200;
+}
+.upper-bar .co{
+    display: inline-block;
+    border:1px solid #4b4b4b;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+/* End Upper Bar */
+
+/* Start Navbar */
+.navbar-brand > span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-brand span:first-child{
+    color: #d35400;
+    font-family: 'Indie Flower', cursive;
+}
+.navbar-brand span:last-child{
+     color: #d35400; 
+  font-family: 'Indie Flower', cursive;  
+}
+.navbar-nav .nav-link{
+    font-size: 16px;
+    font-family: 'Source Serif Pro', serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: bold;
+   
+}
+
+/* End Navbar */
+
+/* Strat  Slider */
+.slider{
+    
+   /* height:100vh;
+    background-color: #FFD180;*/
+}
+.slider .carousel-inner .overlay{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, .6);
+    z-index: 2;
+}
+.slider .carousel-indicators li{
+    cursor: pointer;
+    height: 8px;
+}
+
+/* End Slider */
+
+ /* Star Our Frtuer */
+        
+.our-fetuer{
+    padding: 20px 0;
+}
+.our-fetuer img{
+   /*background-color: red;
+    color: white;*/
+    padding: 12px;
+    margin-bottom: 15px;
+    
+}  
+
+.our-fetuer h3{
+    color: #80526d;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Charm', cursive;
+    text-align:left;
+}
+.our-fetuer p{
+    color: #898989;
+    font-family: 'Charm', cursive;
+    margin-bottom: 50px;
+}
+ /* End Our Frtuer */
+
+/* Start OverView */
+.overview{
+    padding: 100px;
+    background-color: #FFAB40;
+}
+.overview h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Charm', cursive;
+}
+.overview p{
+  line-height: 2;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    font-family: 'Charm', cursive;
+}
+.overview h4{
+ letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Indie Flower', cursive;
+    
+}
+.overview button{
+  background-color: #F57C00;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #F57C00;
+    padding: 10px 30px;
+    font-family: 'Charm', cursive;
+    cursor: pointer;
+}
+/* End OverView */
+
+/* Start Fetured Work */
+.fetuer-work .paertnt .row{
+    margin: 0;
+}
+
+.fetuer-work{
+    padding-top: 15px;
+}
+.fetuer-work h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Charm', cursive;
+}
+.fetuer-work p{
+  line-height: 1.6;
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+    font-family: 'Charm', cursive;
+}
+.fetuer-work ul
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.fetuer-work ul li {
+    border: 2px solid #E65100;
+    font-family: 'Charm', cursive;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all .3s ease-in-out;
+   -moz- transition: all .3s ease-in-out;
+   -o- transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.fetuer-work ul li.active{
+    background-color: #FF9800;
+}
+.fetuer-work ul li:hover{
+    background-color: #FF9800;
+    cursor: pointer;
+}
+.fetuer-work .shuffle-imge{
+    margin-top: 20px;
+}
+.fetuer-work .shuffle-imge .col-sm{
+    padding: 0;
+}
+
+.fetuer-work .shuffle-imge .col-sm img{
+    width: 100%;
+}
+/* End Fetured Work */
+
+/*Start Lastest Post*/ 
+
+.lastes-post {
+    padding-top: 15px;
+}
+.lastes-post h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Charm', cursive;
+    text-align: center;
+}
+.lastes-post p{
+  line-height: 1.6;
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+    margin: auto;
+    font-family: 'Charm', cursive;
+    text-align: center;
+}
+.lastes-post .garid {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.lastes-post .lorem {
+    font-family: 'Charm', cursive;
+    font-size: 15px;
+     font-weight: bold;
+    text-align: center;
+}
+
+.lastes-post .card .card-link {
+    color: #E65100;
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+    font-family: 'Charm', cursive;
+     font-size: 15px;
+    text-transform: uppercase;
+}
+/*End Lastest Post*/ 
+
+/*Start Pricing */
+.pricing-table .card {
+ margin-top: 40px;
+}
+.pricing-table h2 {
+   margin-top: 20px;
+   font-weight: bold;
+   font-family: 'Charm', cursive;
+    text-align: center;  
+}
+.pricing-table h5{
+    margin-top: 25px;
+   font-weight: bold;
+   font-family: 'Charm', cursive;
+    text-align: center;
+}
+
+.pricing-table p {
+
+   font-weight: bold;
+   font-family: 'Charm', cursive;
+    text-align: center;
+    margin: 30px 0 10px;
+}
+.pricing-table .card-text {
+    margin: 20px;
+    padding: 10px;
+    background-color: #ec9524;
+    font-size: 30px;
+}
+.pricing-table .card-body {
+    padding: 0;
+}
+.pricing-table .list-group-item{
+    border: none;
+     font-family: 'Charm', cursive;
+}
+.pricing-table .card .card-link {
+   display: inline-block;
+    background-color: #e2a04a;
+    font-weight: bold;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+     font-family: 'Charm', cursive;
+
+}
+.pricing-table .card.health {
+    position: relative;
+    top: -20px;
+}
+.pricing-table .card.health .card-text {
+   background-color: #d35400;  
+}
+.pricing-table .card.health .card-link {
+    background-color: #d35400;
+} 
+/* End Pricing */
+/* Start Why Choose Us */
+.choose-us {
+    margin-top: 30px;
+}
+
+.choose-us .col:last-child{
+    background-color: #19254d;
+    color: white;
+    padding-top: 50px;
+}
+.choose-us h2{
+    margin: 40px;
+    font-family: 'Charm', cursive;
+    font-weight: bold;
+    
+}
+.choose-us p{
+    margin: 40px;
+    line-height: 2;
+    font-size: 18px;
+    font-family: 'Charm', cursive;
+}
+.choose-us .read-more {
+    background-color:#d35400;
+    padding: 10px;
+    font-family: 'Charm', cursive;
+    color: #e8dbaf;
+     display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+}
+/* End Why Choose Us */
+ 
+/* Start Statistics */
+.stat {
+  
+    padding: 70px 0 ;
+    
+}
+.stat .number {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+    color: #7975aa;
+}
+.stat p {
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+    
+}
+.stat .number1 {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Charm', cursive; 
+    color: darkseagreen;
+}
+.stat .number2 {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Charm', cursive; 
+    color: skyblue;
+}
+.stat .number3 {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+    color:red;
+}
+/* End Statistics */
+
+ /* Start Contact us */
+.contact-us {
+    padding: 50px 0 ;
+    background-color:#d35400;
+    color: sandybrown;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+}
+.contact-us a {
+    color: sandybrown;
+    border: 2px solid ;
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* End Contact us */
+
+/* ٍ Star Footer */
+.footer {
+    padding: 40px 0 ;
+}
+.footer .Rice h2 span:first-of-type{
+     color: #d35400;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer .Rice h2 span:last-of-type{
+     color: #d35400;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer .Rice p {
+     font-weight: bold;
+    font-family: 'Charm', cursive;
+    line-height: 1.8;
+    color: #715f4f;
+    margin: 5px;
+}
+.footer .read {
+font-family: 'Charm', cursive;
+font-weight: bold;
+color: #715f4f;
+}
+.footer .contact h2,
+.footer .helpful-links h2{
+font-family: 'Charm', cursive;
+font-weight: bold;  
+margin-bottom: 20px;
+}
+.footer .helpful-links ul li{
+    margin-bottom: 5px;
+    position: relative;
+   
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold
+}
+.footer .contact ul li{
+    margin-bottom: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold
+}
+.coding{
+    border-top: 2px solid #333;
+    padding: 15px;
+}
+.coding ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #d35400;
+}
+.coding p{
+    font-family: 'Charm', cursive;
+    font-weight: bold;
+    color: dodgerblue;
+}
+/* End Footer */
